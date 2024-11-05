@@ -1,0 +1,58 @@
+@page "/contact"
+@attribute [StreamRendering]
+
+<PageTitle>Contact</PageTitle>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-heading-style">
+            Contact L&amp;E
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="images/contact.png">
+                <br><br>
+                <div style="font-size: 18px;">                    
+                    1721 Bethel Road
+                    <br>
+                    Columbus, OH 43220-0285
+                    <br>
+                    Phone: (614) 459-6500
+                </div>
+            </div>
+            <div class="col-md-7" id="col-map">
+                <div class="pull-right">
+@*                 <div id="map" style="width:400px; height:400px;"></div>
+ *@                <img style="border: black solid 5px; width: 500px;" src="images/contact-map.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY5qBjQkvN8SgHM06VPCrIGmQu07OzAHw"></script>
+<script>
+    $(document).ready(function myMap() {
+        var latlng = new google.maps.LatLng(40.063495, -83.065542);
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: latlng,
+            zoom: 14
+        });
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+        //var infowindow = new google.maps.InfoWindow({
+        //    position: latlng,
+        //    content: 'Lauterbach & Eilber 1721 Bethel Road Columbus, OH 43220',
+        //    map: map,
+        //    maxWidth: 200
+        //});
+        var colMapWidth = $("#col-map").width();
+        if(colMapWidth < 400)
+            $("#map").css("width", colMapWidth + "px");
+    });
+</script> *@
