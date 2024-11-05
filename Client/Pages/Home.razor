@@ -2,6 +2,13 @@
 
 <PageTitle>Home</PageTitle>
 
+<style>
+    .splide__slide img {
+      width: 100%;
+      height: auto;
+    }
+</style>
+
 <div class="row">
     <div class="col-md-3 text-center" style="padding-top: 35px;">
         <div class="panel panel-default">
@@ -27,7 +34,31 @@
         </div>
     </div>
     <div class="col-md-6">
-        <img src="images/carousel/img6.jpg" style="padding-top: 50px;">
+@*         
+ *@        <section id="image-carousel" class="splide" style="padding-top: 50px;" data-splide='{"type":"loop"}'>
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+				<img src="images/carousel/img1.jpg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="images/carousel/img2.jpg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="images/carousel/img3.jpg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="images/carousel/img4.jpg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="images/carousel/img5.jpg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="images/carousel/img6.jpg" alt="">
+			</li>
+		</ul>
+  </div>
+</section>
     </div>
     <div class="col-md-3">
         <div style="font-size: 25px;font-weight: bold;">Serving Columbus since 1868</div>
@@ -38,3 +69,7 @@
         </div>
     </div>
 </div>
+
+<script>
+  new Splide( '#image-carousel' ).mount();
+</script>
