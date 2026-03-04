@@ -1,0 +1,25 @@
+.team-member-info {
+  font-size: 1rem;
+}
+
+.team-member-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.team-member-bio {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.team-member-bio p {
+  margin: 0.75rem 0;
+}
+
+.team-member-email {
+  margin-top: 0.75rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}

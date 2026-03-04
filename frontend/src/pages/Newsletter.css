@@ -1,0 +1,15 @@
+.newsletter-container {
+  width: 100%;
+}
+
+.newsletter-image {
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.newsletter-image:hover {
+  transform: scale(1.02);
+}

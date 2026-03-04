@@ -1,0 +1,29 @@
+.contact-info {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+#col-map {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#col-map img {
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  #col-map {
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  #col-map img {
+    width: 100%;
+    max-width: 500px;
+  }
+}
