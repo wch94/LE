@@ -3,12 +3,12 @@ module.exports = {
   darkMode: 'class',
   content: [
     './index.html',
-    './src/**/*.{ts,tsx}',
+    './**/*.{ts,tsx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
     }
   },
