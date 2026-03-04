@@ -1,32 +1,40 @@
+# Lauterbach & Eilber Insurance
+
+Website for Lauterbach & Eilber Insurance, built with React, TypeScript, Vite, and Tailwind CSS. Deployed to Azure Static Web Apps.
+
 ## Getting Started
 
-1. Continue using either Visual Studio or Visual Studio Code.
+```bash
+cd src
+npm install
+npm run dev
+```
 
-### Visual Studio 2022
+App runs at `http://localhost:3000`.
 
-Once you clone the project, open the solution in the latest release of [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) with the Azure workload installed, and follow these steps:
+## Project Structure
 
-1. Press **F5** to launch both the client application and the Functions API app.
+```
+src/
+├── components/       # Layout and Navigation
+├── pages/            # One component per route
+├── context/          # ThemeContext (dark mode)
+├── public/           # Static assets (images, favicon)
+├── index.html        # Entry point
+├── index.css         # Tailwind base + custom component classes
+├── tailwind.config.js
+├── vite.config.ts
+└── package.json
+```
 
-### Visual Studio Code with Azure Static Web Apps CLI for a better development experience (Optional)
+## Stack
 
-1. Install (or update) the [Azure Static Web Apps CLI](https://www.npmjs.com/package/@azure/static-web-apps-cli) and [Azure Functions Core Tools CLI](https://www.npmjs.com/package/azure-functions-core-tools).
+- **React 18** with TypeScript
+- **Vite** for bundling
+- **Tailwind CSS** for styling
+- **React Router v6** for routing
+- **Azure Static Web Apps** for hosting
 
-1. Open the folder in Visual Studio Code.
+## Deployment
 
-1. In the VS Code terminal, run the following command to start the Static Web Apps CLI, along with the Blazor WebAssembly client application:
-
-    In the Client folder, run:
-    ```bash
-    dotnet watch
-    ```
-
-    The Static Web Apps CLI (`swa`) starts a proxy on port 4280 that will forward static site requests to the Blazor server on port 5000. 
-
-1. Open a browser and navigate to the Static Web Apps CLI's address at `http://localhost:4280`. You'll be able to access the client application.
-
-1. Enter Ctrl-C to stop the Static Web Apps CLI.
-
-## Template Structure
-
-- **LE**: The Blazor WebAssembly application
+Merging to `main` triggers the CI/CD pipeline (`.github/workflows/ci-cd.yml`) which builds and deploys to Azure Static Web Apps automatically.
