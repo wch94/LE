@@ -36,13 +36,6 @@ const teamMembers: TeamMember[] = [
     email: 'kim@lepropcas.com'
   },
   {
-    name: 'Deb McCarty',
-    title: 'CIC',
-    image: '/images/staff/deb.webp',
-    bio: 'Deb entered the insurance industry in 1978, working as a Casualty Claims Processor for an Agri-business insurance company. She first began working as an independent insurance agent in 1983 and joined Lauterbach & Eilber in November 1989.\n\nShe received the Certified Insurance Counselor (CIC) designation in 1992 and has worked with several large franchise accounts.\n\nDeb primarily works with non-profit organizations, and recognizes the unique and challenging coverage issues inherent to those types of businesses.',
-    email: 'deb@lepropcas.com'
-  },
-  {
     name: 'Kathleen Rice',
     title: '',
     image: '/images/staff/kathleen.webp',
