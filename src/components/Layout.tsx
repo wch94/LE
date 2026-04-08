@@ -68,8 +68,8 @@ export default function Layout({ children }: LayoutProps) {
           {/* Disclaimer */}
           <div className="pt-6 text-xs text-slate-500 leading-relaxed space-y-2">
             <p>
-              Securities offered through Registered Representatives of Cambridge Investment Research, Inc., a Broker/Dealer, Member FINRA/SIPC, to residents of:{' '}
-              AZ, CA, CO, DE, FL, GA, IA, IL, IN, KY, MT, NC, NJ, NY, OH, OR, PA, SC, TN, TX, VA, WA, WI, WV
+              Securities offered through Registered Representatives of Cambridge Investment Research, Inc., a Broker/Dealer, Member FINRA/SIPC.
+              Financial Professionals may only conduct business with residents of the states or jurisdictions in which they are properly registered, licensed or exempt from registration and not all of the securities, products and services mentioned are available in every state or jurisdiction.
             </p>
             <p>Investment Advisory Services offered through Cambridge Investment Research Advisors, Inc., a Registered Investment Advisor.</p>
             <p>Cambridge and Lauterbach and Eilber are not affiliated.</p>
