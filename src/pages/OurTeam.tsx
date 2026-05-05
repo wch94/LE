@@ -62,6 +62,13 @@ const teamMembers: TeamMember[] = [
     image: '/images/staff/whitney.jpg',
     bio: '',
     email: 'whitney@lepropcas.com'
+  },
+  {
+    name: 'Celeste Sanfrey',
+    title: 'Commercial Lines Accounts Manager',
+    image: '/images/staff/celeste.jpg',
+    bio: 'Celeste has been with Lauterbach & Eilber since 2026. She is a 2025 graduate of The Ohio State University\'s Fisher College of Business and specializes in managing diverse commercial insurance needs.',
+    email: 'celeste@lepropcas.com'
   }
 ];
 
